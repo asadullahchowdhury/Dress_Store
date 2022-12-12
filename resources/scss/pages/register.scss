@@ -1,0 +1,42 @@
+.register-wrapper {
+    max-width: 500px;
+    width: 100%;
+
+    .register-form {
+        .form-label {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .form-control {
+            font-size: 14px;
+            height: 38px;
+            box-shadow: none;
+
+            &:focus {
+                border-color: $theme;
+            }
+        }
+
+        .no-acc-text {
+            border-bottom: 1px solid $light-border;
+            text-align: center;
+            position: relative;
+
+            span {
+                font-size: 14px;
+                position: relative;
+                background-color: $white;
+                padding: 0 10px;
+                top: 10px;
+            }
+        }
+
+        .acc-text {
+            a {
+                text-decoration: none;
+                color: $theme;
+            }
+        }
+    }
+}

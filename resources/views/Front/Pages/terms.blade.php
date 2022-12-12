@@ -5,16 +5,16 @@
     <!-- breadcrumb section start -->
     <div class="container-fluid p-0 my-3">
         <nav aria-label="breadcrumb">
-            <ol class="breadcrumb border p-2 bg-light fw-bold">
+            <ol class="breadcrumb  p-2 ">
                 <li class="breadcrumb-item">
                     <a href="{{route('Front.Pages.home')}}" class="text-decoration-none text-dark">
-                        <i class="bi bi-house-door text-danger"></i>
+                        <i class="bi bi-house-door text-theme"></i>
                         Home
                     </a>
                 </li>
                 <li class="breadcrumb-item">
                     <a href="{{route('Front.Pages.terms')}}" class="text-decoration-none text-dark">
-                        <i class="bi bi-text-left text-danger"></i>
+                        <i class="bi bi-text-left text-theme"></i>
                         Terms & Conditions
                     </a>
                 </li>

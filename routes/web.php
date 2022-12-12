@@ -15,7 +15,8 @@ use App\Http\Controllers\FrontController;
 */
 
 Route::get('', [FrontController::class, 'home'])->name('Front.Pages.home');
-Route::get('/auth/login', [FrontController::class, 'auth'])->name('Front.Pages.auth');
+Route::get('/auth/register', [FrontController::class, 'register'])->name('Front.Pages.register');
+Route::get('/auth/login', [FrontController::class, 'login'])->name('Front.Pages.login');
 Route::get('/profile', [FrontController::class, 'profile'])->name('Front.Pages.profile');
 Route::get('/cart', [FrontController::class, 'cart'])->name('Front.Pages.cart');
 Route::get('/category', [FrontController::class, 'category'])->name('Front.Pages.category');

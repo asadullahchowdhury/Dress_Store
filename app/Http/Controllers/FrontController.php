@@ -14,9 +14,14 @@ class FrontController extends BaseController
         return view('Front.Pages.home');
     }
 
-    public function auth()
+    public function register()
     {
-        return view('Front.Pages.auth');
+        return view('Front.Pages.register');
+    }
+
+    public function login()
+    {
+        return view('Front.Pages.login');
     }
 
     public function profile()
@@ -58,6 +63,7 @@ class FrontController extends BaseController
     {
         return view('Front.Pages.setting');
     }
+
     public function terms()
     {
         return view('Front.Pages.terms');
