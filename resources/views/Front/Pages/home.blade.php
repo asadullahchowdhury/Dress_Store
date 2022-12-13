@@ -73,7 +73,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -298,7 +298,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -319,7 +319,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -340,7 +340,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -361,7 +361,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -382,7 +382,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -403,7 +403,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -424,7 +424,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -445,7 +445,7 @@
                                     <i class="bi bi-cart"></i>
                                 </a>
                                 <a href="javascript:void(0)" class="col-3 btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>

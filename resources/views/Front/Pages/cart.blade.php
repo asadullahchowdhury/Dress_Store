@@ -5,7 +5,7 @@
     <div class="container-fluid p-0 my-3">
         <div class="section-container">
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb border p-2">
+                <ol class="breadcrumb p-2">
                     <li class="breadcrumb-item">
                         <a href="{{route('Front.Pages.home')}}" class="text-decoration-none text-dark">
                             <i class="bi bi-house-door text-theme"></i>
@@ -27,185 +27,59 @@
     <!-- cart details section start -->
     <div class="container-fluid  my-3">
         <div class="section-container">
-            <div class="col p-3">
-                <div class="row">
-                    <div class="col-md-8 py-3">
-                        <div class="row fw-bold text-md-center text-theme">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white">
-                                        Product Name
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-4 border border-dark p-1 bg-white">
-                                        Price * Quantity
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white">
-                                        Subtotal
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white">
-                                        Action
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row text-dark fw-bold">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white">
-                                        Product Name 1
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        1,00,000 tk * 1
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        1,00,000
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        <a href="" class="text-decoration-none text-theme badge">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row text-dark fw-bold">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white">
-                                        Product Name 2
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        2,00,000 tk * 2
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        4,00,000
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        <a href="" class="text-decoration-none text-theme badge">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row text-dark fw-bold">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white">
-                                        Product Name 3
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        3,00,000 tk * 3
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        9,00,000
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        <a href="" class="text-decoration-none text-theme badge">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row text-dark fw-bold">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white">
-                                        Product Name 4
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        4,00,000 tk * 4
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        16,00,000
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        <a href="" class="text-decoration-none text-theme badge">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row text-dark fw-bold">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white">
-                                        Product Name 5
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        5,00,000 tk * 5
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        25,00,000
-                                    </div>
-                                    <div class="col-4 border border-dark p-1 bg-white text-md-center">
-                                        <a href="" class="text-decoration-none text-theme badge">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row fw-bold text-theme">
-                            <div class="col-4">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white text-md-end">
-                                        Total SubTotal
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <div class="col-12 border border-dark p-1 bg-white text-md-center">
-                                        25,00,000
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <div class="row px-3 fw-bold text-theme">
-                            <div class="col-8 p-1 border border-dark text-md-center bg-white">Description</div>
-                            <div class="col-4 p-1 border border-dark text-md-center bg-white">Amount</div>
-                        </div>
-                        <div class="row px-3 fw-bold">
-                            <div class="col-8 p-1 border border-dark text-md-center bg-white">Total Subtotal</div>
-                            <div class="col-4 p-1 border border-dark text-md-center bg-white">55,00,000</div>
-                        </div>
-                        <div class="row px-3 fw-bold">
-                            <div class="col-8 p-1 border border-dark text-md-center bg-white">Shipping Charge</div>
-                            <div class="col-4 p-1 border border-dark text-md-center bg-white">10,000</div>
-                        </div>
-                        <div class="row px-3 fw-bold">
-                            <div class="col-8 p-1 border border-dark text-md-center bg-white">15% Discount ( <span
-                                    class="badge bg-danger">10</span> Items )
-                            </div>
-                            <div class="col-4 p-1 border border-dark text-md-center bg-white">0</div>
-                        </div>
-                        <div class="row px-3 fw-bold text-theme">
-                            <div class="col-8 p-1 border border-dark text-md-center bg-white">Total Payment</div>
-                            <div class="col-4 p-1 border border-dark text-md-center bg-white">55,10,000</div>
-                        </div>
-                        <div class="row px-3">
-                            <div class="col-12 py-3 border border-dark text-md-center bg-white">
-                                <a href="{{route('Front.Pages.checkout')}}" class="btn btn-sm btn-theme">Order Procced</a>
-                            </div>
+            <div class="p-3">
+                <h3 class="title bold text-theme">Shopping Cart</h3>
+                <div class="cart-container">
+                    <div class="table-responsive">
+                        <table class="table table-shopping table-borderless">
+                            <thead>
+                            <tr class="border-theme border-bottom">
+                                <th>Image</th>
+                                <th>Product Name</th>
+                                <th>Quantity</th>
+                                <th>Unit Price</th>
+                                <th>Total</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="border-bottom">
+                                <td class="table-product-img">
+                                    <img src="/images/dress-01.jpg" alt="dress-01" class="img-fluid">
+                                </td>
+                                <td class="fw-bold">Money is the motive t-shirt (blue)</td>
+                                <td class="quantity">
+                                    <input type="text" value="1" class="form-control d-inline-block">
+                                    <a href="javascript:void (0)"><i
+                                            class="bi bi-check-square ms-4 me-2  text-dark"></i></a>
+                                    <a href="javascript:void (0)"><i class="bi bi-x mx-2 text-dark"></i></a>
+                                </td>
+
+                                <td class="unit-price fw-bold">$170 x 1</td>
+                                <td class="t-price text-theme fw-bold"> $170</td>
+                            </tr>
+                            <tr class="">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="pt-3 pb-3 border-bottom"><strong>Sub-Total:</strong></td>
+                                <td class="text-theme fw-bold border-bottom ">$170</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="pt-3 pb-3 border-bottom"><strong>Total:</strong></td>
+                                <td class="text-theme fw-bold border-bottom">$170</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="bottom-btn-section mt-5 mb-5">
+                            <button type="button" class="btn btn-theme"><i class="bi bi-arrow-left mx-2"></i> Continue
+                                Shopping
+                            </button>
+                            <button type="button" class="btn btn-theme"> Confirm Order <i
+                                    class="bi bi-arrow-right mx-2"></i></button>
                         </div>
                     </div>
                 </div>

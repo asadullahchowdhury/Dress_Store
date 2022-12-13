@@ -20,6 +20,7 @@ Route::get('/auth/login', [FrontController::class, 'login'])->name('Front.Pages.
 Route::get('/profile', [FrontController::class, 'profile'])->name('Front.Pages.profile');
 Route::get('/cart', [FrontController::class, 'cart'])->name('Front.Pages.cart');
 Route::get('/category', [FrontController::class, 'category'])->name('Front.Pages.category');
+Route::get('/product', [FrontController::class, 'product'])->name('Front.Pages.product');
 Route::get('/contact', [FrontController::class, 'contact'])->name('Front.Pages.contact');
 Route::get('/history', [FrontController::class, 'history'])->name('Front.Pages.history');
 Route::get('/checkout', [FrontController::class, 'checkout'])->name('Front.Pages.checkout');

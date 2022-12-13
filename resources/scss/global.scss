@@ -53,15 +53,31 @@ a {
 .btn-theme {
     background-color: $theme;
     font-weight: 600;
-    transition: .3s all ease-in-out;
+    transition: .5s all ease-in-out;
     color: $white;
 
     &:hover {
-        background-color: $theme-dark;
-        transition: .3s all ease-in-out;
+        box-shadow: 0 50px rgb(0 0 0 / 20%) inset;
+        //background-color: $theme-dark;
+        transition: .5s all ease-in-out;
         color: $white;
     }
 }
+
+.btn-secondary {
+    &:hover {
+        transition: .5s all ease-in-out;
+        box-shadow: 0 50px rgb(0 0 0 / 20%) inset;
+    }
+}
+
+.btn-success {
+    &:hover {
+        transition: .5s all ease-in-out;
+        box-shadow: 0 50px rgb(0 0 0 / 20%) inset;
+    }
+}
+
 
 .btn-outline-theme {
     background-color: transparent;
@@ -69,10 +85,12 @@ a {
     box-shadow: none;
     border: 2px solid $theme;
     font-weight: 600;
-    transition: .3s all ease-in-out;
+    transition: .5s all ease-in-out;
+
     &:hover {
-        transition: .3s all ease-in-out;
+        transition: .5s all ease-in-out;
         background-color: $theme;
+        box-shadow: 0 50px rgb(0 0 0 / 20%) inset;
         border-color: $theme;
         font-weight: 600;
         color: $white;

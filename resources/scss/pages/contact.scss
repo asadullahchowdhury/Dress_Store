@@ -27,5 +27,6 @@
     &:hover{
         background-color: $theme;
         color: $white!important;
+        box-shadow: 0 100px rgb(0 0 0 / 20%) inset;
     }
 }

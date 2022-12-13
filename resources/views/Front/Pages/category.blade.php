@@ -61,11 +61,11 @@
                         <div class="d-flex justify-content-between p-2">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -80,11 +80,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -99,11 +99,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -118,11 +118,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -138,11 +138,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -157,11 +157,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -176,11 +176,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>
@@ -195,11 +195,11 @@
                         <div class="d-flex p-2 justify-content-between">
                             <div class="h3 fw-bold text-dark">$50</div>
                             <div class="">
-                                <a href="" class="btn btn-sm btn-theme">
+                                <a href="" class="btn px-4 btn-sm btn-theme">
                                     <i class="bi bi-cart"></i>
                                 </a>
-                                <a href="" class="btn btn-sm btn-secondary">
-                                    <i class="bi bi-card-text"></i>
+                                <a href="" class="btn px-4 btn-sm btn-secondary">
+                                   <i class="bi bi-eye"></i>
                                 </a>
                             </div>
                         </div>

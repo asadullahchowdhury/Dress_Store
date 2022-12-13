@@ -38,6 +38,10 @@ class FrontController extends BaseController
     {
         return view('Front.Pages.category');
     }
+    public function product()
+    {
+        return view('Front.Pages.product');
+    }
 
     public function contact()
     {

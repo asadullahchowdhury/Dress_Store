@@ -11,7 +11,7 @@
                     <a href="{{route('Front.Pages.cart')}}" class="text-decoration-none text-dark px-3 border-end">
                         <i class="bi bi-cart text-theme"></i>
                         Cart Details
-                        <span class="badge bg-theme">000</span>
+                        <span class="badge bg-theme">1</span>
                     </a>
                     <a href="{{route('Front.Pages.contact')}}" class="text-decoration-none text-dark px-3">
                         <i class="bi bi-telephone text-theme"></i>
@@ -119,6 +119,12 @@
                             <a class="nav-link text-dark" href="{{route('Front.Pages.contact')}}">
                                 <i class="bi bi-telephone text-theme"></i>
                                 Contact Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " href="{{route('Front.Pages.cart')}}">
+                                <i class="bi bi-cart text-theme"></i>
+                               Cart <span class="bg-theme badge rounded-circle">1</span>
                             </a>
                         </li>
                     </ul>
