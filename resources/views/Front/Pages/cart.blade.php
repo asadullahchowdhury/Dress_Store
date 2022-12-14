@@ -75,9 +75,9 @@
                         </table>
 
                         <div class="bottom-btn-section mt-5 mb-5">
-                            <button type="button" class="btn btn-theme"><i class="bi bi-arrow-left mx-2"></i> Continue
+                            <a href="{{route('Front.Pages.home')}}" type="button" class="btn btn-theme"><i class="bi bi-arrow-left mx-2"></i> Continue
                                 Shopping
-                            </button>
+                            </a>
                             <button type="button" class="btn btn-theme"> Confirm Order <i
                                     class="bi bi-arrow-right mx-2"></i></button>
                         </div>

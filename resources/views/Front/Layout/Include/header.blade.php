@@ -35,7 +35,8 @@
             <div class="col-md-6 p-3">
                 <form action="" method="post">
                     <div class="mb-0 position-relative">
-                        <input type="search" name="" class="form-control shadow-none p-3" placeholder="Product Search Here"
+                        <input type="search" name="" class="form-control shadow-none p-3"
+                               placeholder="Product Search Here"
                                required>
                         <button type="submit"
                                 class="mx-3 btn btn-sm btn-theme position-absolute top-50 end-0 translate-middle-y">
@@ -124,7 +125,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark " href="{{route('Front.Pages.cart')}}">
                                 <i class="bi bi-cart text-theme"></i>
-                               Cart <span class="bg-theme badge rounded-circle">1</span>
+                                Cart <span class="bg-theme badge rounded-circle">1</span>
                             </a>
                         </li>
                     </ul>
@@ -156,3 +157,61 @@
 
 </div>
 <!-- header section end -->
+
+
+<!--cart-->
+<div class="cart-btn btn-theme  fixed-bottom " onclick="cart()">
+    <span class="badge bg-dark rounded-circle  text-light">1</span>
+    <i class="bi bi-cart"></i>
+</div>
+<!--cart nav-->
+<div class="cart-nav outsideClick" >
+    <div class="cart-header bg-theme p-3  fw-bold text-white">
+        <h5>Your cart</h5>
+        <a href="javascript:void(0)" onclick="cart()">
+            <i class="bi bi-x h3"></i>
+        </a>
+    </div>
+    <div class="cart-body">
+        <div class="cart-item">
+            <div class="cart-img">
+                <img src="/images/dress-01.jpg" alt="dress-1" class="img-fluid">
+            </div>
+            <div class="product-details">
+                <div class="name">Money is the motive (blue)</div>
+                <div class="amount">
+                    <div class="price">$170</div>
+                    <span><i class="bi bi-x mx-2"></i></span>
+                    <span class="qty">1</span>
+                    <span class="eq mx-2">=</span>
+                    <div class="total">$170</div>
+
+                </div>
+            </div>
+            <div class="action">
+                <a href="javascript:void (0)"
+                   class="btn btn-trash"><i
+                        class="bi bi-trash"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="cart-footer">
+{{--        <div class="promo-code">--}}
+{{--            <div class="input-grp">--}}
+{{--                <input type="text" class="form-control shadow-none" placeholder="Promo Code">--}}
+{{--                <a href="javascript:void(0)" class=" ms-3 btn-outline-theme px-4 btn">Apply</a>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+        <div class="total">
+            <div class="title">Sub-total :</div>
+            <div class="amount fw-bold">170$</div>
+        </div>
+        <div class="total">
+            <div class="title">Total :</div>
+            <div class="amount fw-bold">170$</div>
+        </div>
+        <div class="checkout">
+            <a href="{{route('Front.Pages.cart')}}" class="btn btn-theme py-3 w-100">Checkout</a>
+        </div>
+    </div>
+</div>

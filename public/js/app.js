@@ -52,7 +52,7 @@ $('.brand').owlCarousel({
     }
 });
 
-$('.product-img').owlCarousel({
+$('.slider-product-img').owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
@@ -78,3 +78,18 @@ function decrement() {
     document.getElementById('number').value = value;
 }
 
+function cart() {
+    if ($('.cart-nav').hasClass('active')) {
+        $('.cart-nav').removeClass('active')
+    } else {
+        $('.cart-nav').addClass('active')
+    }
+}
+
+
+$(document).mouseup(function (e) {
+    const container = $('.outsideClick');
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        container.removeClass('active');
+    }
+});

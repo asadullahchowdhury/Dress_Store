@@ -45,7 +45,7 @@
                 <!-- product img section-->
                 <div class="col-md-4 justify-content-center mt-5 mb-5">
                     <div class="product-img-wrapper d-flex ">
-                        <div class="product-img owl-carousel">
+                        <div class="slider-product-img owl-carousel">
                             <img src="/images/dress-01.jpg" alt="dress" class="img-fluid">
                         </div>
                     </div>
