@@ -24,28 +24,28 @@
 </div>
 <div class="container-fluid">
     <div class="section-container">
-        <div class=" row align-items-center text-center ">
-            <div class="col-md-3 d-none d-lg-block">
-                <div class="h3 fw-bold text-start px-4">
+        <div class=" row py-2 align-items-center text-center ">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-4">
+                <div class="h3 brand-name fw-bold text-start">
                     <a href="{{route('Front.Pages.home')}}" class="text-decoration-none">
                         <span class="text-theme">Dress</span> <span class="text-dark">Store</span>
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 p-3">
+            <div class="col-lg-6 col-md-9 col-md-8 col-8">
                 <form action="" method="post">
                     <div class="mb-0 position-relative">
-                        <input type="search" name="" class="form-control shadow-none p-3"
-                               placeholder="Product Search Here"
+                        <input type="search" name="" class="form-control rounded-pill shadow-none p-3"
+                               placeholder="Search Product here ..."
                                required>
                         <button type="submit"
-                                class="mx-3 btn btn-sm btn-theme position-absolute top-50 end-0 translate-middle-y">
+                                class="mx-3 btn rounded-circle py-2 btn-theme position-absolute top-50 end-0 translate-middle-y">
                             <i class="bi bi-search"></i>
                         </button>
                     </div>
                 </form>
             </div>
-            <div class="col-md-3 d-none d-lg-block px-4 text-end">
+            <div class="col-lg-3 d-lg-block d-md-none  d-sm-none d-none text-end">
                 <a href="#" class="btn btn-sm btn-theme">
                     <i class="bi bi-facebook"></i>
                 </a>
@@ -68,20 +68,14 @@
         </div>
     </div>
 </div>
+
 <div class="container-fluid  border bg-light">
     <div class="section-container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid ">
-                <a class="navbar-brand d-block d-lg-none text-dark" href="{{route('Front.Pages.home')}}">
-                    <span class="text-theme">Dress</span> Store
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!---nav bottom--->
+                <div class="nav-bottom">
+                    <ul class="navbar-nav none-991 me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link text-dark" href="#" role="button" data-bs-toggle="dropdown"
                                aria-expanded="false">
@@ -129,13 +123,74 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav">
-                        <li class="nav-item d-block d-lg-none">
-                            <a class="nav-link text-dark" href="{{route('Front.Pages.checkout')}}">
-                                <i class="bi bi-cart text-theme"></i>
-                                Card Details <span class="badge bg-theme">000</span>
+
+
+                    <!---sidenav--->
+                    <div class="sidebar" onclick="Sidenav()">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                    <nav class="sidenav outsideClick">
+                        <div class="nav-header">
+                            <a href="{{route('Front.Pages.home')}}" class="navbar-brand text-center fw-bold text-dark">Dress
+                                <span
+                                    class="text-theme"> Store</span>
                             </a>
-                        </li>
+                            <a href="javascript:void(0)" class="nav-close" onclick="Sidenav()"><i
+                                    class="bi bi-x h3 text-dark"></i></a>
+                        </div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="" href="javascript:void (0)" role="button" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    <i class="bi bi-justify-left text-theme"></i>
+                                    <span>  Category</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="{{route('Front.Pages.category')}}">Male
+                                            Collection</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{route('Front.Pages.category')}}">Female
+                                            Collection</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{route('Front.Pages.category')}}">Children
+                                            Collection</a></li>
+                                    <li><a class="dropdown-item" href="{{route('Front.Pages.category')}}">Accessories
+                                            Collection</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="{{route('Front.Pages.cart')}}">
+                                    <i class="bi bi-cart text-theme"></i>
+                                    Cart <span class="badge rounded-circle bg-theme">1</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="{{route('Front.Pages.contact')}}">
+                                    <i class="bi bi-telephone text-theme"></i>
+                                    <span>Contact us</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="javascript:void (0)">
+                                    <i class="bi bi-buildings text-theme"></i>
+                                    <span>About us</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="navbar-nav nav-imp">
+{{--                        <li class="nav-item d-block d-lg-none">--}}
+{{--                            <a class="nav-link text-dark" href="{{route('Front.Pages.cart')}}">--}}
+{{--                                <i class="bi bi-cart text-theme"></i>--}}
+{{--                                Cart <span class="badge rounded-circle bg-theme">1</span>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
                         <li class="nav-item ">
                             <a class="nav-link text-dark d-inline-block" href="{{route('Front.Pages.login')}}">
                                 <i class="bi bi-box-arrow-in-right text-theme"></i>
@@ -165,7 +220,7 @@
     <i class="bi bi-cart"></i>
 </div>
 <!--cart nav-->
-<div class="cart-nav outsideClick" >
+<div class="cart-nav outsideClick">
     <div class="cart-header bg-theme p-3  fw-bold text-white">
         <h5>Your cart</h5>
         <a href="javascript:void(0)" onclick="cart()">
@@ -196,12 +251,12 @@
         </div>
     </div>
     <div class="cart-footer">
-{{--        <div class="promo-code">--}}
-{{--            <div class="input-grp">--}}
-{{--                <input type="text" class="form-control shadow-none" placeholder="Promo Code">--}}
-{{--                <a href="javascript:void(0)" class=" ms-3 btn-outline-theme px-4 btn">Apply</a>--}}
-{{--            </div>--}}
-{{--        </div>--}}
+        {{--        <div class="promo-code">--}}
+        {{--            <div class="input-grp">--}}
+        {{--                <input type="text" class="form-control shadow-none" placeholder="Promo Code">--}}
+        {{--                <a href="javascript:void(0)" class=" ms-3 btn-outline-theme px-4 btn">Apply</a>--}}
+        {{--            </div>--}}
+        {{--        </div>--}}
         <div class="total">
             <div class="title">Sub-total :</div>
             <div class="amount fw-bold">170$</div>

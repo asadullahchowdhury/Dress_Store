@@ -93,3 +93,13 @@ $(document).mouseup(function (e) {
         container.removeClass('active');
     }
 });
+
+
+
+function Sidenav(){
+    if ($('.sidenav').hasClass('active')){
+        $('.sidenav').removeClass('active')
+    }else{
+        $('.sidenav').addClass('active')
+    }
+}
